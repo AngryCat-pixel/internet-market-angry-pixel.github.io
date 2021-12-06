@@ -1,5 +1,10 @@
 .header
     background-color: $main-color
+    position: fixed
+    left: 0
+    top: 0
+    width: 100%
+    z-index: 2
     &__topbar
         display: flex
         justify-content: space-between
@@ -17,14 +22,17 @@
             &:hover
                 color: #000000b6
     &__basket
-        img
-            cursor: pointer
+        a
+            text-decoration: none
+            img
+                cursor: pointer
     &__menu
         display: flex
         justify-content: space-between
         list-style-type: none
         align-items: center
         height: 50px
+        padding: 0
     &__link
         transition: all 0.5s
         text-decoration: none

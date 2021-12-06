@@ -1,0 +1,82 @@
+.basket
+    width: 750px
+    height: 423px
+    margin: 80px auto
+    background: #fff
+    box-shadow: 1px 2px 3px 0 rgb(0 0 0 / 41%)
+    border-radius: 6px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: flex-start
+    &__title
+        height: 60px
+        border-bottom: 1px solid #000000
+        padding: 20px 30px
+        color: #5E6977
+        font-size: 18px
+        font-weight: 400
+        margin: 0 auto
+    &__item
+        padding: 20px 30px
+        height: 120px
+        width: 100%
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: space-around
+        &:nth-child(3)
+            border-top: 1px solid #E1E8EE
+            border-bottom: 1px solid #E1E8EE
+    &__image
+        display: block
+        img
+            width: 100px
+            height: 100px
+            display: block
+            margin: 0 auto
+    &__description
+        padding: 0 10px
+        width: 200px
+        span
+            display: block
+            color: #000
+    &__buttons
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+        height: 80%
+    &__quantity
+        input
+            width: 50px
+            border: none
+            text-align: center
+            color: #000
+    &__plus-btn,
+    &__minus-btn
+        border: none
+        padding: 0
+        margin: 0
+        img
+            width: 18px
+            height: 18px
+
+    &__delete-btn,
+    &__like-btn
+        display: inline-block
+        Cursor: pointer
+
+    &__delete-btn
+        width: 18px
+        height: 18px
+        background: url(../../icons/ico/basket/delete.svg) no-repeat center
+        background-size: 18px
+
+    &__like-btn
+        background: url(../../icons/ico/basket/like.svg) no-repeat center
+        width: 27px
+        height: 27px
+        background-size: 27px
+    &__total-price
+        color: $main-color
