@@ -1,0 +1,118 @@
+.cards
+    &__item
+        position: relative
+        display: flex
+        flex-direction: column
+        margin-right: 30px
+        margin-bottom: 45px
+    &__info
+        display: flex
+        flex-direction: column
+    &__name
+        margin-top: 30px
+        font-weight: bold
+        color: #000000
+        a
+            text-decoration: none
+            color: #000000d5
+            font-size: 15px
+    &__purchase
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        margin-top: 10px
+    &__price
+        color: #000000
+        color: $main-color
+        font-weight: bold
+    &__buy
+        width: 68px
+        color: #000
+        border: 1px solid $main-color
+        text-align: center
+        height: 22px
+        font-size: 13px
+        transition: all 0.5s
+        &:hover
+            border: none
+            background-color: $main-color
+    &__img
+        cursor: pointer
+        background: $card-color
+        display: block
+        margin: 0 auto
+        img
+            display: block
+            margin: 0 auto
+            width: 269px
+    &__images
+        &-heart
+            position: absolute
+            top: 50%
+            left: 88%
+            cursor: pointer
+            width: 30px
+            height: 30px
+            background: #fff
+            border-radius: 50%
+            transition: all 0.5s
+            img
+                display: block
+                margin: 0 auto
+                padding-top: 4px
+            &:hover
+                background-color: $main-color
+        &-bag
+            position: absolute
+            top: 59%
+            left: 88%
+            width: 30px
+            height: 30px
+            cursor: pointer
+            background: #fff
+            border-radius: 50%
+            transition: all 0.5s
+            img
+                display: block
+                margin: 0 auto
+                padding-top: 4px
+            &:hover
+                background-color: $main-color
+        &-show
+            position: absolute
+            top: 68%
+            left: 88%
+            cursor: pointer
+            width: 30px
+            height: 30px
+            background: #fff
+            border-radius: 50%
+            transition: all 0.5s
+            img
+                display: block
+                margin: 0 auto
+                padding-top: 6px
+            &:hover
+                background-color: $main-color
+    &__list
+        display: flex
+        cursor: pointer
+        height: 29px
+        position: relative
+        bottom: 60px
+        left: 86%
+        font-size: 15px
+        width: 140px
+        border: 1px solid #7ac751
+        flex-direction: row
+        justify-content: space-evenly
+        transition: all 0.5s
+        &:hover
+            border: none
+            background-color: $main-color
+        img
+            width: 12px
+    &__page
+        cursor: pointer
+        color: #000
+        line-height: 26px

@@ -1,0 +1,101 @@
+.advantage
+    margin-top: 100px
+    &__wrap
+        display: flex
+        flex-direction: column
+    &__about
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        &-wrap
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+            align-items: center
+            img
+                margin-right: 15px
+        &-descr
+            display: flex
+            flex-direction: column
+        &-title
+            color: #000000
+            font-size: 18px
+        &-subtitle
+            color: #555
+            font-size: 14px
+    &__cards
+        margin-top: 60px
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        flex-direction: row
+    &__right-card
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+    &__card
+        position: relative
+    &__subtitle
+        color: #555
+        position: absolute
+        top: 16%
+        left: 6%
+    &__descr
+        font-size: 12px
+        color: $main-color
+        position: absolute
+        top: 31%
+        left: 6%
+    &__btn
+        display: flex
+        cursor: pointer
+        height: 29px
+        font-size: 15px
+        width: 140px
+        flex-direction: row
+        justify-content: space-evenly
+        position: absolute
+        top: 45%
+        left: 2%
+        transition: all 0.5s
+        &:hover
+            border: 1px solid $main-color
+        img
+            width: 12px
+    &__text
+        cursor: pointer
+        color: #757575
+        line-height: 26px
+    &__big
+        &-subtitle
+            color: #555
+            position: absolute
+            top: 14%
+            left: 6%
+            font-size: 22px
+        &-descr
+            font-size: 18px
+            color: $main-color
+            position: absolute
+            top: 24%
+            left: 6%
+        &-btn
+            display: flex
+            cursor: pointer
+            height: 29px
+            font-size: 15px
+            width: 140px
+            flex-direction: row
+            justify-content: space-evenly
+            position: absolute
+            top: 33%
+            left: 3%
+            transition: all 0.5s
+            &:hover
+                border: 1px solid $main-color
+            img
+                width: 12px
+        &-text
+            cursor: pointer
+            color: #757575
+            line-height: 26px
