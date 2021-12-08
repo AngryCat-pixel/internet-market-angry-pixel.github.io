@@ -1,0 +1,34 @@
+.order
+    margin: 150px 0
+    &__wrap
+        display: flex
+        border-radius: 5px
+        background-color: #f2f2f2
+        padding: 10px
+
+    input[type=text]
+        width: 100%
+        color: #000000a1
+        padding: 12px
+        border: 1px solid #ccc
+        margin-top: 6px
+        margin-bottom: 16px
+
+    input[type=submit]
+        color: #000
+        background-color: #fff
+        padding: 5px 40px
+        border: 1px solid $main-color
+        display: block
+        color: #000000a1
+        margin: 0 auto
+        cursor: pointer
+        &:hover
+            border: none
+            background-color: $main-color
+
+    @media screen and (max-width: 600px)
+    .contact
+        &__form, input[type=submit]
+            width: 100%
+            margin-top: 0

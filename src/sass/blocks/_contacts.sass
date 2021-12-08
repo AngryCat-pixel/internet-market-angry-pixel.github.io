@@ -1,0 +1,67 @@
+.contact
+    margin: 150px 0
+    &__wrap
+        display: flex
+        border-radius: 5px
+        background-color: #f2f2f2
+        padding: 10px
+        flex-direction: row
+        align-items: center
+        justify-content: space-between
+    &__title
+        color: #000
+        text-align: center
+    &__subtitle
+        color: #000
+        text-align: center
+
+    input[type=text],
+    select,
+    textarea
+        width: 100%
+        color: #000000a1
+        padding: 12px
+        border: 1px solid #ccc
+        margin-top: 6px
+        margin-bottom: 16px
+
+    input[type=submit]
+        color: #000
+        background-color: #fff
+        padding: 5px 40px
+        border: 1px solid $main-color
+        display: block
+        color: #000000a1
+        margin: 0 auto
+        cursor: pointer
+        &:hover
+            border: none
+            background-color: $main-color
+    &__form
+        float: left
+        width: 100%
+        margin-top: 6px
+        padding: 20px
+        label
+            font-weight: bold
+            color: #000000e5
+    #country
+        option
+            color: #000000a1
+
+    &__maps
+        float: left
+        width: 55%
+        margin-top: 6px
+        padding: 20px
+    &__map
+        &:after
+            content: ""
+            display: table
+            clear: both
+
+    @media screen and (max-width: 600px)
+    .contact
+        &__form, input[type=submit]
+            width: 100%
+            margin-top: 0

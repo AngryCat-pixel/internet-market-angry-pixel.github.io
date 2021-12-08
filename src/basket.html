@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -40,99 +40,158 @@
 
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
-<body>
-    <div class="basket">
-        <div class="basket__title">Shopping Bag</div>
-      
-        <!-- Товар 1 -->
-        <div class="basket__item">
-          <div class="basket__buttons">
-            <span class="basket__delete-btn"></span>
-            <span class="basket__like-btn"></span>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__topbar">
+          <div class="header__descr">Welcome to our online shop</div>
+          <div class="header__shop">
+            <div class="header__register">
+              <span class="header__login"> <a href="#">Login</a></span> or
+              <span class="header__signup"> <a href="#">Sign up</a></span>
+            </div>
+            <div class="header__basket">
+              <a href="#"><img src="icons/ico/icon-shop.svg" alt="" /></a>
+            </div>
           </div>
-      
-          <div class="basket__image">
-            <img src="img/card/buskbo-chair.png" alt="" />
-          </div>
-      
-          <div class="basket__description">
-            <span>Buskbo armchair</span>
-            <!-- <span></span> -->
-          </div>
-      
-          <div class="basket__quantity">
-            <button class="basket__plus-btn" type="button" name="button">
-              <img src="icons/ico/basket/plus.svg" alt="" />
-            </button>
-            <input type="text" name="name" value="1" />
-            <button class="basket__minus-btn" type="button" name="button">
-              <img src="icons/ico/basket/minus.svg" alt="" />
-            </button>
-          </div>
-      
-          <div class="basket__total-price">$549</div>
-        </div>
-      
-        <!-- Товар 2 -->
-        <div class="basket__item">
-          <div class="basket__buttons">
-            <span class="basket__delete-btn"></span>
-            <span class="basket__like-btn"></span>
-          </div>
-      
-          <div class="basket__image">
-            <img src="img/card/living-room.png" alt="" />
-          </div>
-      
-          <div class="basket__description">
-            <span>Delicia 3 Piece Living Room</span>
-            <!-- <span></span> -->
-          </div>
-      
-          <div class="basket__quantity">
-            <button class="basket__plus-btn" type="button" name="button">
-              <img src="icons/ico/basket/plus.svg" alt="" />
-            </button>
-            <input type="text" name="name" value="1" />
-            <button class="basket__minus-btn" type="button" name="button">
-              <img src="icons/ico/basket/minus.svg" alt="" />
-            </button>
-          </div>
-      
-          <div class="basket__total-price">$870</div>
-        </div>
-      
-        <!-- Товар 3 -->
-        <div class="basket__item">
-          <div class="basket__buttons">
-            <span class="basket__delete-btn"></span>
-            <span class="basket__like-btn"></span>
-          </div>
-      
-          <div class="basket__image">
-            <img src="img/card/tabel-black.png" alt="" />
-          </div>
-      
-          <div class="basket__description">
-            <span>Wood Coffee Tables</span>
-            <!-- <span></span> -->
-          </div>
-      
-          <div class="basket__quantity">
-            <button class="basket__plus-btn" type="button" name="button">
-              <img src="icons/ico/basket/plus.svg" alt="" />
-            </button>
-            <input type="text" name="name" value="1" />
-            <button class="basket__minus-btn" type="button" name="button">
-              <img src="icons/ico/basket/minus.svg" alt="" />
-            </button>
-          </div>
-      
-          <div class="basket__total-price">$349</div>
         </div>
       </div>
-      
-</body>
+      <div class="header__sidebar">
+        <nav>
+          <div class="container">
+            <ul class="header__menu">
+              <li class="header__item">
+                <a href="shop.html" class="header__link">SHOP</a>
+              </li>
+              <li class="header_item">
+                <a href="index.html" class="header__link">HOME</a>
+              </li>
+              <li class="header__item">
+                <a href="contact.html" class="header__link">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section class="basket">
+      <div class="basket__title">Shopping Bag</div>
+
+      <!-- Товар 1 -->
+      <div class="basket__item">
+        <div class="basket__buttons">
+          <span class="basket__delete-btn"></span>
+          <span class="basket__like-btn"></span>
+        </div>
+
+        <div class="basket__image">
+          <img src="img/card/buskbo-chair.png" alt="" />
+        </div>
+
+        <div class="basket__description">
+          <span>Buskbo armchair</span>
+          <!-- <span></span> -->
+        </div>
+
+        <div class="basket__quantity">
+          <button class="basket__plus-btn" type="button" name="button">
+            <img src="icons/ico/basket/plus.svg" alt="" />
+          </button>
+          <input type="text" name="name" value="1" />
+          <button class="basket__minus-btn" type="button" name="button">
+            <img src="icons/ico/basket/minus.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="basket__total-price">$549</div>
+      </div>
+
+      <!-- Товар 2 -->
+      <div class="basket__item">
+        <div class="basket__buttons">
+          <span class="basket__delete-btn"></span>
+          <span class="basket__like-btn"></span>
+        </div>
+
+        <div class="basket__image">
+          <img src="img/card/living-room.png" alt="" />
+        </div>
+
+        <div class="basket__description">
+          <span>Delicia 3 Piece Living Room</span>
+          <!-- <span></span> -->
+        </div>
+
+        <div class="basket__quantity">
+          <button class="basket__plus-btn" type="button" name="button">
+            <img src="icons/ico/basket/plus.svg" alt="" />
+          </button>
+          <input type="text" name="name" value="1" />
+          <button class="basket__minus-btn" type="button" name="button">
+            <img src="icons/ico/basket/minus.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="basket__total-price">$870</div>
+      </div>
+
+      <!-- Товар 3 -->
+      <div class="basket__item">
+        <div class="basket__buttons">
+          <span class="basket__delete-btn"></span>
+          <span class="basket__like-btn"></span>
+        </div>
+
+        <div class="basket__image">
+          <img src="img/card/tabel-black.png" alt="" />
+        </div>
+
+        <div class="basket__description">
+          <span>Wood Coffee Tables</span>
+          <!-- <span></span> -->
+        </div>
+
+        <div class="basket__quantity">
+          <button class="basket__plus-btn" type="button" name="button">
+            <img src="icons/ico/basket/plus.svg" alt="" />
+          </button>
+          <input type="text" name="name" value="1" />
+          <button class="basket__minus-btn" type="button" name="button">
+            <img src="icons/ico/basket/minus.svg" alt="" />
+          </button>
+        </div>
+
+        <div class="basket__total-price">$349</div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__divider"></div>
+        <div class="footer__wrap">
+          <div class="footer__contacts">
+            <div class="footer__title"><a href="contact.html">Contact</a></div>
+            <div class="footer__instagramm"><a href="#">Instagramm</a></div>
+            <div class="footer__facebook"><a href="#">Facebook</a></div>
+            <div class="footer__twitter"><a href="#">Twitter</a></div>
+          </div>
+
+          <div class="footer__more">
+            <div class="footer__title">Quick Link</div>
+            <div class="footer__home"><a href="index.html">Home</a></div>
+            <div class="footer__shop"><a href="shop.html">Shop</a></div>
+            <div class="footer__basket"><a href="#">Basket</a></div>
+          </div>
+
+          <div class="footer__helps">
+            <div class="footer__title">Help</div>
+            <div class="footer__policy"><a href="#">Privacy Policy</a></div>
+            <div class="footer__track"><a href="#">Track Your Order</a></div>
+            <div class="footer__refund"><a href="#">Refund Policy</a></div>
+          </div>
+        </div>
+        <div class="footer__divider"></div>
+        <div class="footer__reserved">2021. All rights reserved</div>
+      </div>
+    </footer>
+  </body>
 </html>
-
-
